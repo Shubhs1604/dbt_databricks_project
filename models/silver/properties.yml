@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: int_sales
+    description: "Cleaned and validated sales transactions"
+    columns:
+      - name: sale_id
+        description: "The primary key of this table"
+        data_tests:
+          - unique
+          - not_null
