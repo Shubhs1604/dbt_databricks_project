@@ -1,5 +1,3 @@
-<img width="1408" height="768" alt="image_3c6d2511" src="https://github.com/user-attachments/assets/e7fbc2f6-864b-45d5-b4d4-7ae5203684c8" />
-
 # Databricks & dbt Core Data Engineering Pipeline
 
 This repository hosts a production-grade analytics engineering pipeline built using **dbt Core** and **Databricks**. It transforms raw ingestion assets in the Databricks Lakehouse into highly optimized dimensional models using the multi-tier **Medallion Architecture**.
@@ -23,7 +21,7 @@ Our framework partitions data through three logical progressive layers to enforc
 
 Below is the universal structural diagram highlighting how dbt orchestrates your data processing cycle within target database catalogs:
 
-![dbt Architecture and DAG Lifecycle](https://unsplash.com)
+<img width="1408" height="768" alt="image_3c6d2511" src="https://github.com/user-attachments/assets/e7fbc2f6-864b-45d5-b4d4-7ae5203684c8" />
 
 ---
 
